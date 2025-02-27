@@ -1,3 +1,5 @@
+//Angie Lorena Jimenez Porras (:
+
 package org.example;
 
 import java.util.Scanner;
@@ -49,11 +51,12 @@ public class Main {
                         } else System.out.println("No tiene esa cantidad disponible");
 
                     }
-                    case 4->{
+                    case 4-> {
+                        System.out.println("ha salido del programa");
 
                     }
                     default -> System.out.println("ingrese una opcion valida");
                 }
-            } while (s != 5);
+            } while (s != 4);
     }
 }
